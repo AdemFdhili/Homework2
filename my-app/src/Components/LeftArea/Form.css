@@ -1,0 +1,46 @@
+.Leftpart {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 28rem;
+}
+
+.Form-1st-part,.Form-2nd-part,.Form-3rd-part {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 2rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0a2d51;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 8rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.error{
+    color: rgb(187, 0, 0);
+    margin: 0;
+}
